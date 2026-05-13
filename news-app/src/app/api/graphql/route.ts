@@ -16,3 +16,6 @@ export async function GET(request: NextRequest) {
     headers: response.headers,
   });
 }
+
+// Netlify will handle this as a serverless function
+// No need to specify runtime - let Next.js/Netlify decide
